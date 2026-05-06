@@ -1,0 +1,19 @@
+# Layout
+### Header
+## Add job/hobbies
++ Video Games
++ Bartending
+## Add Languages
++ C#
++ HTML
++ CSS
++ JavaScript
+
+## Add Tools
++ Visual Studios 2022
++ Visual Studio Code
++ PowerShell
+
+## Make sure mobile first design
+
+## use srcset

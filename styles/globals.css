@@ -1,0 +1,8 @@
+@font-face {
+    font-family:'IBM';
+    src: url('../assets/fonts/DM_Serif_Text/DMSerifText-Regular.ttf') format('truetype');
+}
+
+body{
+    font-family:'IBM',sans-serif ;
+}
