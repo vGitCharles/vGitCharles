@@ -1,3 +1,20 @@
+.ul-list{
+    display: flex;
+}
+
+
 nav{
     position: sticky;
+    top: 0;
+    padding: 0.2rem;
+    background: #555;
+    color: #f1f1f1;
+    
+
 }
+
+nav a{
+    color: #f1f1f1;
+   
+}
+
