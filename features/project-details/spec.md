@@ -1,6 +1,6 @@
 # Project
++ sticky header
 + add project page link from home page
-+ 
 
 ## Project 1
 + P1 project game
