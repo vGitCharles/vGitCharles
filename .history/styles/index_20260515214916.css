@@ -40,29 +40,3 @@
     border-right: 1px solid black;
     padding:1.5rem 0;
 }
-.sidebar_link{
-    display:block;
-    padding: 0.6rem 1.25rem;
-    font-family: 'IBM', sans-serif;
-    font-size:0.85rem;
-    color: grey;
-    text-decoration: none;
-    border-left: 2px solid transparent;
-    transition:color 0.2s, border-color 0.2s, background-color 0.2s;
-}
-.sidebar_link:hover{
-    color:white;
-    background-color: black;
-    border-left-color: darkorange;
-
-}
-.sidebar_link:active{
-    color:goldenrod;
-    border-left-color: goldenrod;
-    background-color: black;
-}
-.page-content{
-    margin-top: 3rem;
-    margin-left: 11rem;
-    padding:2rem 2.5rem;
-}
