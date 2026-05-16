@@ -7,7 +7,7 @@ body{
     font-family:'IBM',sans-serif ;
     overflow-x: hidden;
 }
-/*ensures all elements have box-sizing https://www.w3schools.com/cssref/sel_before.php*/
+
 *,*::before, *::after{
     box-sizing: border-box;
 }
