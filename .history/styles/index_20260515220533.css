@@ -29,7 +29,7 @@
 .TopBar_Email:hover{
     color: yellow;
 }
-/*SideBar*/
+
 .sidebar{
     position: fixed;
     top:3rem;
@@ -39,16 +39,7 @@
     background-color: black;
     border-right: 1px solid black;
     padding:1.5rem 0;
-    /*hidden off-screen on mobile*/
-    transform: translateX(-100%);
-    z-index:90;
 }
-.sidebar ul{
-    list-style: none;
-    margin:0;
-    padding:0;
-}
-
 .sidebar_link{
     display:block;
     padding: 0.6rem 1.25rem;
@@ -70,66 +61,11 @@
     border-left-color: goldenrod;
     background-color: black;
 }
-.sidebar.is-open{
-    transform:translateX(0);
-}
-/*Hamburger button (mobile only) https://www.w3schools.com/howto/howto_css_menu_icon.asp*/
-.hamburger{
-    display:flex;
-    flex-direction: column;
-    gap:5px;
-    background: none;
-    border:none;
-    cursor:pointer;
-    padding: 0.25rem;
-    margin-right: 0.75rem;
-}
-.hamburger span{
-    display:block;
-    width:1.4rem;
-    height:1.5px;
-    background-color:white;
-    border-radius: 2px;
-}
-
-/*Main Content*/
 .page-content{
     margin-top: 3rem;
     margin-left: 11rem;
     padding:2rem 2.5rem;
-    box-sizing: border-box;
-    width:100%;
-    overflow-x: hidden;
-    
 }
-.page-content img{
-    width:100%;
-    max-width: 100%;
-    height: auto;
-    margin-block: 1rem;
-}
-/* Tablet*/
-@media (min-width:40rem){
-    .page-content{
-        padding: 2rem 1.5rem;
-    }
-    .page-content img{
-        max-width: 80%;
-    }
-}
-/*Desktop*/
-@media (min-width: 50rem){
-    .hamburger{
-        display: none;
-    }
-    .sidebar{
-        transform: translateX(0);
-    }
-    .page-content{
-        margin-left:11rem;
-        padding:2rem 2.5rem;
-    }
-    .page-content img{
-        max-width: 60%;
-    }
+@media (min-width:50rem){
+    .
 }

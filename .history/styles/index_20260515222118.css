@@ -97,14 +97,9 @@
     margin-top: 3rem;
     margin-left: 11rem;
     padding:2rem 2.5rem;
-    box-sizing: border-box;
-    width:100%;
-    overflow-x: hidden;
-    
 }
 .page-content img{
     width:100%;
-    max-width: 100%;
     height: auto;
     margin-block: 1rem;
 }
