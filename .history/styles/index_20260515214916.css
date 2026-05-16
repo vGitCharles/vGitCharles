@@ -1,0 +1,42 @@
+.topBar{
+    position: fixed;
+    top:0;
+    left: 0;
+    right: 0;
+    height:3rem;
+    z-index: 100;
+    background-color: black;
+    border-bottom: 1px solid #2a2520;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 1.5rem;
+
+}
+.TopBar_Name{
+    font-family:'IBM', sans-serif ;
+    font-size: 1rem;
+    color:whitesmoke;
+    font-weight: 600;
+}
+.TopBar_Email{
+    font-family: 'IBM',sans-serif;
+    font-size:0.85rem;
+    color: grey;
+    text-decoration: none;
+    transition: color 0.2s;
+}
+.TopBar_Email:hover{
+    color: yellow;
+}
+
+.sidebar{
+    position: fixed;
+    top:3rem;
+    left: 0;
+    bottom:0;
+    width: 11rem;
+    background-color: black;
+    border-right: 1px solid black;
+    padding:1.5rem 0;
+}
